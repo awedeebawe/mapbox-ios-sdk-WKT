@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB5804819BDE137007214AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5804719BDE137007214AA /* Foundation.framework */; };
+		CEB5804A19BDE137007214AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5804919BDE137007214AA /* CoreGraphics.framework */; };
+		CEB5804C19BDE137007214AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5804B19BDE137007214AA /* UIKit.framework */; };
+		CEB5805219BDE138007214AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB5805019BDE138007214AA /* InfoPlist.strings */; };
+		CEB5805419BDE138007214AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5805319BDE138007214AA /* main.m */; };
+		CEB5805819BDE138007214AA /* ADBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5805719BDE138007214AA /* ADBAppDelegate.m */; };
+		CEB5805B19BDE138007214AA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB5805919BDE138007214AA /* Main_iPhone.storyboard */; };
+		CEB5805E19BDE138007214AA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB5805C19BDE138007214AA /* Main_iPad.storyboard */; };
+		CEB5806119BDE138007214AA /* ADBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5806019BDE138007214AA /* ADBViewController.m */; };
+		CEB5806319BDE138007214AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB5806219BDE138007214AA /* Images.xcassets */; };
+		CEB5806A19BDE138007214AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5806919BDE138007214AA /* XCTest.framework */; };
+		CEB5806B19BDE138007214AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5804719BDE137007214AA /* Foundation.framework */; };
+		CEB5806C19BDE138007214AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5804B19BDE137007214AA /* UIKit.framework */; };
+		CEB5807419BDE138007214AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB5807219BDE138007214AA /* InfoPlist.strings */; };
+		CEB5807619BDE138007214AA /* Mapbox_iOS_SDK_WKTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5807519BDE138007214AA /* Mapbox_iOS_SDK_WKTTests.m */; };
+		CEB5808019BDE275007214AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5807F19BDE275007214AA /* QuartzCore.framework */; };
+		CEB5808219BDE27D007214AA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5808119BDE27D007214AA /* libz.dylib */; };
+		CEB5808419BDE296007214AA /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5808319BDE296007214AA /* Mapbox.framework */; };
+		CEB5808619BDE57B007214AA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5808519BDE57B007214AA /* libsqlite3.dylib */; };
+		CEB5808919BDEAE2007214AA /* ADBParseWKT.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5808819BDEAE2007214AA /* ADBParseWKT.m */; };
+		CEB5808B19BDEB64007214AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5808A19BDEB64007214AA /* CoreLocation.framework */; };
+		CEB5808D19BDEB6B007214AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5808C19BDEB6B007214AA /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB5806D19BDE138007214AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB5803C19BDE137007214AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB5804319BDE137007214AA;
+			remoteInfo = "Mapbox iOS SDK+WKT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB5804419BDE137007214AA /* Mapbox iOS SDK+WKT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mapbox iOS SDK+WKT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB5804719BDE137007214AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEB5804919BDE137007214AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEB5804B19BDE137007214AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEB5804F19BDE137007214AA /* Mapbox iOS SDK+WKT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mapbox iOS SDK+WKT-Info.plist"; sourceTree = "<group>"; };
+		CEB5805119BDE138007214AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB5805319BDE138007214AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB5805519BDE138007214AA /* Mapbox iOS SDK+WKT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mapbox iOS SDK+WKT-Prefix.pch"; sourceTree = "<group>"; };
+		CEB5805619BDE138007214AA /* ADBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBAppDelegate.h; sourceTree = "<group>"; };
+		CEB5805719BDE138007214AA /* ADBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADBAppDelegate.m; sourceTree = "<group>"; };
+		CEB5805A19BDE138007214AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CEB5805D19BDE138007214AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CEB5805F19BDE138007214AA /* ADBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBViewController.h; sourceTree = "<group>"; };
+		CEB5806019BDE138007214AA /* ADBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADBViewController.m; sourceTree = "<group>"; };
+		CEB5806219BDE138007214AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEB5806819BDE138007214AA /* Mapbox iOS SDK+WKTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mapbox iOS SDK+WKTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB5806919BDE138007214AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEB5807119BDE138007214AA /* Mapbox iOS SDK+WKTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mapbox iOS SDK+WKTTests-Info.plist"; sourceTree = "<group>"; };
+		CEB5807319BDE138007214AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB5807519BDE138007214AA /* Mapbox_iOS_SDK_WKTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mapbox_iOS_SDK_WKTTests.m; sourceTree = "<group>"; };
+		CEB5807F19BDE275007214AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEB5808119BDE27D007214AA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CEB5808319BDE296007214AA /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = ../../Downloads/Mapbox.framework; sourceTree = "<group>"; };
+		CEB5808519BDE57B007214AA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CEB5808719BDEAE2007214AA /* ADBParseWKT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBParseWKT.h; sourceTree = "<group>"; };
+		CEB5808819BDEAE2007214AA /* ADBParseWKT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBParseWKT.m; sourceTree = "<group>"; };
+		CEB5808A19BDEB64007214AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEB5808C19BDEB6B007214AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB5804119BDE137007214AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB5808D19BDEB6B007214AA /* MapKit.framework in Frameworks */,
+				CEB5808B19BDEB64007214AA /* CoreLocation.framework in Frameworks */,
+				CEB5808619BDE57B007214AA /* libsqlite3.dylib in Frameworks */,
+				CEB5808419BDE296007214AA /* Mapbox.framework in Frameworks */,
+				CEB5808219BDE27D007214AA /* libz.dylib in Frameworks */,
+				CEB5808019BDE275007214AA /* QuartzCore.framework in Frameworks */,
+				CEB5804A19BDE137007214AA /* CoreGraphics.framework in Frameworks */,
+				CEB5804C19BDE137007214AA /* UIKit.framework in Frameworks */,
+				CEB5804819BDE137007214AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB5806519BDE138007214AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB5806A19BDE138007214AA /* XCTest.framework in Frameworks */,
+				CEB5806C19BDE138007214AA /* UIKit.framework in Frameworks */,
+				CEB5806B19BDE138007214AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB5803B19BDE137007214AA = {
+			isa = PBXGroup;
+			children = (
+				CEB5804D19BDE137007214AA /* Mapbox iOS SDK+WKT */,
+				CEB5806F19BDE138007214AA /* Mapbox iOS SDK+WKTTests */,
+				CEB5804619BDE137007214AA /* Frameworks */,
+				CEB5804519BDE137007214AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB5804519BDE137007214AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5804419BDE137007214AA /* Mapbox iOS SDK+WKT.app */,
+				CEB5806819BDE138007214AA /* Mapbox iOS SDK+WKTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB5804619BDE137007214AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5808C19BDEB6B007214AA /* MapKit.framework */,
+				CEB5808A19BDEB64007214AA /* CoreLocation.framework */,
+				CEB5808519BDE57B007214AA /* libsqlite3.dylib */,
+				CEB5808319BDE296007214AA /* Mapbox.framework */,
+				CEB5808119BDE27D007214AA /* libz.dylib */,
+				CEB5807F19BDE275007214AA /* QuartzCore.framework */,
+				CEB5804719BDE137007214AA /* Foundation.framework */,
+				CEB5804919BDE137007214AA /* CoreGraphics.framework */,
+				CEB5804B19BDE137007214AA /* UIKit.framework */,
+				CEB5806919BDE138007214AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB5804D19BDE137007214AA /* Mapbox iOS SDK+WKT */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5808719BDEAE2007214AA /* ADBParseWKT.h */,
+				CEB5808819BDEAE2007214AA /* ADBParseWKT.m */,
+				CEB5805619BDE138007214AA /* ADBAppDelegate.h */,
+				CEB5805719BDE138007214AA /* ADBAppDelegate.m */,
+				CEB5805919BDE138007214AA /* Main_iPhone.storyboard */,
+				CEB5805C19BDE138007214AA /* Main_iPad.storyboard */,
+				CEB5805F19BDE138007214AA /* ADBViewController.h */,
+				CEB5806019BDE138007214AA /* ADBViewController.m */,
+				CEB5806219BDE138007214AA /* Images.xcassets */,
+				CEB5804E19BDE137007214AA /* Supporting Files */,
+			);
+			path = "Mapbox iOS SDK+WKT";
+			sourceTree = "<group>";
+		};
+		CEB5804E19BDE137007214AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5804F19BDE137007214AA /* Mapbox iOS SDK+WKT-Info.plist */,
+				CEB5805019BDE138007214AA /* InfoPlist.strings */,
+				CEB5805319BDE138007214AA /* main.m */,
+				CEB5805519BDE138007214AA /* Mapbox iOS SDK+WKT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB5806F19BDE138007214AA /* Mapbox iOS SDK+WKTTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5807519BDE138007214AA /* Mapbox_iOS_SDK_WKTTests.m */,
+				CEB5807019BDE138007214AA /* Supporting Files */,
+			);
+			path = "Mapbox iOS SDK+WKTTests";
+			sourceTree = "<group>";
+		};
+		CEB5807019BDE138007214AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5807119BDE138007214AA /* Mapbox iOS SDK+WKTTests-Info.plist */,
+				CEB5807219BDE138007214AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB5804319BDE137007214AA /* Mapbox iOS SDK+WKT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB5807919BDE138007214AA /* Build configuration list for PBXNativeTarget "Mapbox iOS SDK+WKT" */;
+			buildPhases = (
+				CEB5804019BDE137007214AA /* Sources */,
+				CEB5804119BDE137007214AA /* Frameworks */,
+				CEB5804219BDE137007214AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mapbox iOS SDK+WKT";
+			productName = "Mapbox iOS SDK+WKT";
+			productReference = CEB5804419BDE137007214AA /* Mapbox iOS SDK+WKT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB5806719BDE138007214AA /* Mapbox iOS SDK+WKTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB5807C19BDE138007214AA /* Build configuration list for PBXNativeTarget "Mapbox iOS SDK+WKTTests" */;
+			buildPhases = (
+				CEB5806419BDE138007214AA /* Sources */,
+				CEB5806519BDE138007214AA /* Frameworks */,
+				CEB5806619BDE138007214AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB5806E19BDE138007214AA /* PBXTargetDependency */,
+			);
+			name = "Mapbox iOS SDK+WKTTests";
+			productName = "Mapbox iOS SDK+WKTTests";
+			productReference = CEB5806819BDE138007214AA /* Mapbox iOS SDK+WKTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB5803C19BDE137007214AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ADB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = github.com/awedeebawe;
+				TargetAttributes = {
+					CEB5806719BDE138007214AA = {
+						TestTargetID = CEB5804319BDE137007214AA;
+					};
+				};
+			};
+			buildConfigurationList = CEB5803F19BDE137007214AA /* Build configuration list for PBXProject "Mapbox iOS SDK+WKT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB5803B19BDE137007214AA;
+			productRefGroup = CEB5804519BDE137007214AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB5804319BDE137007214AA /* Mapbox iOS SDK+WKT */,
+				CEB5806719BDE138007214AA /* Mapbox iOS SDK+WKTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB5804219BDE137007214AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB5805E19BDE138007214AA /* Main_iPad.storyboard in Resources */,
+				CEB5806319BDE138007214AA /* Images.xcassets in Resources */,
+				CEB5805B19BDE138007214AA /* Main_iPhone.storyboard in Resources */,
+				CEB5805219BDE138007214AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB5806619BDE138007214AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB5807419BDE138007214AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB5804019BDE137007214AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB5808919BDEAE2007214AA /* ADBParseWKT.m in Sources */,
+				CEB5805819BDE138007214AA /* ADBAppDelegate.m in Sources */,
+				CEB5805419BDE138007214AA /* main.m in Sources */,
+				CEB5806119BDE138007214AA /* ADBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB5806419BDE138007214AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB5807619BDE138007214AA /* Mapbox_iOS_SDK_WKTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB5806E19BDE138007214AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB5804319BDE137007214AA /* Mapbox iOS SDK+WKT */;
+			targetProxy = CEB5806D19BDE138007214AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB5805019BDE138007214AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB5805119BDE138007214AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEB5805919BDE138007214AA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB5805A19BDE138007214AA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB5805C19BDE138007214AA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB5805D19BDE138007214AA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB5807219BDE138007214AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB5807319BDE138007214AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB5807719BDE138007214AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB5807819BDE138007214AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB5807A19BDE138007214AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mapbox iOS SDK+WKT/Mapbox iOS SDK+WKT-Prefix.pch";
+				INFOPLIST_FILE = "Mapbox iOS SDK+WKT/Mapbox iOS SDK+WKT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEB5807B19BDE138007214AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mapbox iOS SDK+WKT/Mapbox iOS SDK+WKT-Prefix.pch";
+				INFOPLIST_FILE = "Mapbox iOS SDK+WKT/Mapbox iOS SDK+WKT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEB5807D19BDE138007214AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mapbox iOS SDK+WKT.app/Mapbox iOS SDK+WKT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mapbox iOS SDK+WKT/Mapbox iOS SDK+WKT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mapbox iOS SDK+WKTTests/Mapbox iOS SDK+WKTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEB5807E19BDE138007214AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mapbox iOS SDK+WKT.app/Mapbox iOS SDK+WKT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mapbox iOS SDK+WKT/Mapbox iOS SDK+WKT-Prefix.pch";
+				INFOPLIST_FILE = "Mapbox iOS SDK+WKTTests/Mapbox iOS SDK+WKTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB5803F19BDE137007214AA /* Build configuration list for PBXProject "Mapbox iOS SDK+WKT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB5807719BDE138007214AA /* Debug */,
+				CEB5807819BDE138007214AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB5807919BDE138007214AA /* Build configuration list for PBXNativeTarget "Mapbox iOS SDK+WKT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB5807A19BDE138007214AA /* Debug */,
+				CEB5807B19BDE138007214AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB5807C19BDE138007214AA /* Build configuration list for PBXNativeTarget "Mapbox iOS SDK+WKTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB5807D19BDE138007214AA /* Debug */,
+				CEB5807E19BDE138007214AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB5803C19BDE137007214AA /* Project object */;
+}
