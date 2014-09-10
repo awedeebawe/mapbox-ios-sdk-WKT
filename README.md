@@ -30,7 +30,7 @@ ADBParseWKT *parser = [[ADBParseWKT alloc] initWithMapView:mapView];
 ```
 and voilà! You have your first polygons on your map!
 
-Or you can use directly use the internal public methods as follows:
+Or you can directly use the internal public methods as follows:
 ```
 // POINT
 [parser processPoint:sampleWKT];
